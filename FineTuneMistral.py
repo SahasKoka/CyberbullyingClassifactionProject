@@ -4,8 +4,8 @@ import pandas as pd
 from time import sleep
 
 # Define the deployment endpoint and API token
-deployment_id = "2be8e4fb-980a-4fa2-9dc3-74a077f771d6"
-api_auth_token = "321493eb-18f3-42b7-950c-5e1b7947fbbb"
+deployment_id = "token key"
+api_auth_token = "token key"
 url = f"https://{deployment_id}.monsterapi.ai/generate"
 
 # Read the article text from the file
