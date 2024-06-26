@@ -34,7 +34,7 @@ def call_llm(value):
     response = requests.post(
         url="https://openrouter.ai/api/v1/chat/completions",
         headers={
-            "Authorization": "Bearer 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",
+            "Authorization": "token key",
             "Content-Type": "application/json"
         },
         data=json.dumps({
